@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.main{
+
+   
+    height: 400%;
+    width: 100%;
+    position: absolute;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem;
+    max-width: 100%;
+    max-height: 85px;
+    margin: 0px auto;
+    position: sticky !important;
+    top: 0;
+    z-index: 2;
+    background-color: #EFF9FB;
+    
+}
+.navbar .logo{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-left: 15%;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 5px rgb(25, 0, 255);
+    font-family: 'Franklin Gothic Medium';
+}
+.logopic{
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    
+    padding: 5px;
+    
+}
+.letterd{
+    color: rgb(27, 86, 212);
+    text-shadow: 1px 1px 3px white;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+    margin-right: 20px ;
+    
+}
+.navbar ul li a{
+   text-decoration: none;
+   list-style: none;
+   font-size: 20px;
+   font-weight: 500;
+   font-family:Arial;
+   color:#051214;
+   letter-spacing: 2px;
+   transition: 0.4s ease ease-in-out;
+   font-weight: bold;
+   margin-right: 5px;
+  
+}
+.navbar ul li a:hover{
+    color:#30ADC0;
+    border-bottom-style: solid;
+    border-color: red;
+    padding-bottom: 30px;
+    
+}
+
+#home{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding: 2rem 15rem 21rem 15rem;
+    max-height: 80%;
+   
+}
+
+.infohome h4{
+    font-size: 40px;
+}
+.infohome h1{
+    font-size: 100px;
+}
+.infohome h3{
+    font-size: 50px;
+    
+}
+.infohome h5{
+    font-size: 15px;
+    color: #2a8c9b;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.hireme{
+    background-color: #30ADC0;
+    
+    padding: 10px 60px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.hireme a{
+    text-decoration: none;
+    color: white;
+}
+.hireme:active{
+    background-color: #A1DEE8;
+}
+.socmed-icon{
+    margin: 5px;
+}
+.icon{
+    margin-right: 10px;
+}
+.resume{
+    background-color: #b39b8400;
+    color: #30ADC0;
+    padding: 10px 60px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 1px solid ;
+    font-weight: bold;
+}
+.resume:active{
+    background-color: #DFF3F7;
+ 
+}
+
+#gallery{
+    align-items: center;
+    max-height: 100%;
+    padding: 9rem 10rem 13.9rem 10rem;
+    justify-content: center;
+    
+}
+.gal{
+   
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    color: rgb(0, 17, 112);
+}
+
+.image{
+    margin: auto;
+    display: flex;
+    height: 600px;
+    gap: 10PX ;
+    width: 1000px;
+    
+    padding: 2rem;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 50px;
+    
+}
+.image > div{
+    flex: 4;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: auto 100%;
+    transition:.8s ease /*cubic-bezier(.25, .4, .45, 1.4) */;
+    
+}
+.image > div:hover{
+    flex: 20;
+
+}
+
+
+#about{
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    justify-content: center;    
+    
+   
+}
+#about >div{
+    max-width: 70%;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px black;
+    padding: 5rem 5rem 7rem 5rem;
+    
+ 
+}
+.aboutpic{
+    display: flex;
+    width: 360px;
+    height: 430px;
+    padding: 1rem;
+    float: left;
+    transform: rotate(-15deg);
+    background-color: rgb(38, 71, 83);
+    border-radius: 20px;
+    z-index: 1;
+    margin-left:2rem ;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+}
+.abouttext{
+    color:#2a8c9b ;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px white;
+    
+}
+.abouttext .me{
+    color: white;
+    text-shadow: 1px 1px 5px #1b636e;
+}
+.paragraph{
+    padding: 0px 3rem 3rem 3rem;
+    text-align: left;
+    margin-left: 5rem;
+    font-size: 21px;
+    max-width: 1200px;
+    letter-spacing: 1px;
+ 
+}
+#about >div ul li{
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    margin-left: 5rem;
+   font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+#about >div h1{
+    color:#1b636e;
+}
+
+.project{
+   
+    width: 100%;
+    height: 100vh;
+}
+.project h1{
+    margin-top: 10%;
+    text-align: center;
+}
+.project-one{
+    width: 400px;
+    border-radius: 20px;
+    background-color: #E3EDEF;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 500px;
+}
+.project-one a{
+    text-decoration: none;
+    color: #30ADC0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-two{
+    width: 400px;
+    border-radius: 20px;
+    background-color: #E3EDEF;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 500px;
+}
+.project-two a{
+    text-decoration: none;
+    color: #30ADC0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-three{
+    width: 400px;
+    border-radius: 20px;
+    background-color: #E3EDEF;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    height: 500px;
+}
+.project-three a{
+    text-decoration: none;
+    color: #30ADC0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-one:hover{
+    background-color: #CAECF2;
+    width: 31%;
+    height: 501px;
+}
+.project-two:hover{
+    background-color: #CAECF2;
+    width: 31%;
+    height: 501px;
+}
+.project-three:hover{
+    background-color: #CAECF2;
+    width: 31%;
+    height: 501px;
+}
+
+
+.dpb{
+    color: rgb(71, 117, 216);
+    text-shadow: .5px .5px 1px rgb(255, 255, 255);
+}
+#contact{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+.contactletter{
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 3rem;
+    color:  #2a8c9b;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 12rem 2rem 12rem;
+
+   
+}
+.container .contacttext{
+    text-align: left;
+    max-width: 50%;
+   
+    margin: 1rem;
+}
+.container .contacttext h3{
+    color:rgb(71, 117, 216);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+}
+.container .contacttext p{
+    font-family: Arial;
+    padding: 7px;
+    font-size: 20px;
+}
+.infocont{
+    display: block;
+    
+}
+.container .contacttext .icon{
+   padding: 10px;
+ 
+}
+.info{
+    display: flex;
+    align-items: center;
+
+}
+.info p{
+    padding-left: 50px;
+    font-family: Arial;
+    
+}
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+.footer{
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3.5%;
+    bottom: 0;
+    margin-top: 80px;
+}
+.footer h2{
+    color: white;
+    padding: 10px;
+}
+.fill{
+    display: block;
+    
+    padding: 1rem;
+    margin: 17px;
+
+}
+.fill h1{
+    padding: 5px;
+}
+input[type=text]{
+    display: flex;
+    width: 40rem;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    border:none;
+    box-shadow:1px 5px 2px #30ADC0;
+    padding-left: 15px;
+}
+textarea{
+    border-radius: 10px;
+    border:none;
+    box-shadow:1px 5px 2px #30ADC0;
+    width: 100%;
+   
+}
+input[type=submit]{
+    padding: 8px;
+    margin: 7px;
+    background-color: #30ADC0;
+    border-radius: 10px;
+    margin-left: 70%;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foottext{
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
